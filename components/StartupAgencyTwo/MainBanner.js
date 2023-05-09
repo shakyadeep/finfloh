@@ -65,15 +65,27 @@ class MainBanner extends Component {
                   <div className="col-lg-12">
                     <div className="main-banner-content text-center">
                       <h1>
-                        Transform Receivables <br />
-                        Workflows for B2B Finance Teams
+                        Collaborative 
+                        <br />
+                        Receivables Automation Platform
                       </h1>
                       <p>
-                        Accelerate your Receivables & Collections through <br />
-                        Collaborations, Multi-Channel Reminders & Automated
-                        Flows
+                        Build Intelligent Workflows, Leverage Customer Insights,
+                        <br />
+                        Accelerate Collections.
                       </p>
-
+                      <div className="hero_newsletter">
+                        <form className="newsletter-form">
+                          <input
+                            type="email"
+                            className="form-control"
+                            placeholder="Email Address"
+                            name="email"
+                            required
+                          />
+                          <button type="submit">BOOK A DEMO</button>
+                        </form>
+                      </div>
                       {/* <Link href="#">
                         <a className="btn btn-primary">Get Started</a>
                       </Link> */}
@@ -85,8 +97,7 @@ class MainBanner extends Component {
                             this.openModal();
                           }}
                         >
-                          <i className="icofont-ui-play"></i> Checkout Product
-                          Demo
+                          <i className="icofont-ui-play"></i> Watch a Demo
                         </a>
                       </Link>
                     </div>

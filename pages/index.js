@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Navbar from "../components/Layouts/Navbar";
 import MainBanner from "../components/StartupAgencyTwo/MainBanner";
-import FeaturedServices from "../components/StartupAgencyTwo/FeaturedServices";
+// import FeaturedServices from "../components/StartupAgencyTwo/FeaturedServices";
 // import CaseStudies from "../components/StartupAgencyTwo/CaseStudies";
 // import FeedbackTwo from "../components/Common/FeedbackTwo";
 // import BestServices from "../components/StartupAgencyTwo/BestServices";
@@ -12,9 +12,10 @@ import FeaturedServices from "../components/StartupAgencyTwo/FeaturedServices";
 // import FunFactsTwo from "../components/Common/FunFactsTwo";
 // import WorkProcess from "../components/StartupAgencyTwo/WorkProcess";
 // import PricingStyleThree from "../components/Pricing/PricingStyleThree";
-// import Newsletter from "../components/Common/Newsletter";
+import Newsletter from "../components/Common/Newsletter";
 // import CtaAreaTwo from "../components/Common/CtaAreaTwo";
 import Footer from "../components/Layouts/Footer";
+// import FaqContent from "../components/Faq/FaqContent";
 
 class FinFlohHome extends Component {
   render() {
@@ -24,7 +25,7 @@ class FinFlohHome extends Component {
 
         <MainBanner />
 
-        <FeaturedServices />
+        {/* <FeaturedServices /> */}
 
         {/* <CaseStudies />
 
@@ -43,7 +44,10 @@ class FinFlohHome extends Component {
         </div>
 
         <CtaAreaTwo /> */}
-
+        {/* <FaqContent /> */}
+        <div className="ptb-100">
+          <Newsletter />
+        </div>
         <Footer />
       </>
     );

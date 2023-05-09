@@ -44,15 +44,17 @@ This files table contents are outlined below >>>>>
 */
 /* Default CSS */
 
-$main-color: #96D300;
-$secondary-color: #E4F0C5;
+$main-color: #00954A;
+$secondary-color: #F1F3E4;
+$dark-bg-color:#00381C;
+$light-bg-color:#D2EA97;
 $gradient-color: linear-gradient(
   to left top,
-  #96D300,
-  #96D300,
-  #96D300,
-  #96D300,
-  #96D300
+  #00954A,
+  #00954A,
+  #00954A,
+  #00954A,
+  #00954A
 );
 $main-font-family:'Satoshi', sans-serif;
 $heading-font-family:'Clash Display', sans-serif;
@@ -218,7 +220,7 @@ a {
   }
 }
 .btn-primary {
-  color: $btn-color;
+  color: $white-color;
   background-color: $white-color;
   border: 1px solid $main-color;
 
@@ -344,7 +346,7 @@ a {
   }
   &:hover,
   &:focus {
-    color: $black-color;
+    color: $white-color;
     box-shadow: unset;
     background-color: $secondary-color;
     border-color: transparent;
@@ -542,7 +544,7 @@ Navbar CSS
       font-size: 28px;
     }
     .navbar-nav {
-      margin-left: auto;
+      margin-right: auto;
 
       .nav-item {
         position: relative;
@@ -4024,6 +4026,43 @@ Subscribe CSS
     image: url(/images/feedback-bg.jpg);
   }
 }
+.hero_newsletter{
+  display: block;
+  .newsletter-form {
+    margin: 0 auto;
+    margin-top: 48px;
+    margin-bottom: 21px;
+  }
+}
+.newsletter-form {
+  position: relative;
+  width: 100%;
+  max-width: 483px;
+  .form-control {
+    background-color: #ffffff;
+    height: 60px;
+    border-radius: 4px;
+    padding: 10px 25px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 19px;
+    color: $black-color;
+  }
+  button {
+    position: absolute;
+    background: $main-color;
+    color: $white-color;
+    border: none;
+    top: 0;
+    right: 0;
+    top: 5px;
+    right: 5px;
+    height: 50px;
+    border-radius: 0px 3px 3px 0px;
+    padding: 0 30px;
+    font-weight: 600;
+  }
+}
 .newsletter {
   max-width: 750px;
   border-radius: 5px;
@@ -4072,38 +4111,27 @@ Subscribe CSS
   }
 }
 .newsletter-inner-area {
-  background-image: url('/images/newsletter-bg.jpg');
-  background-size: cover;
-  background-position: center center;
-  background-attachment: fixed;
-  position: relative;
-  padding: 80px 30px;
-  text-align: center;
 
-  &::before {
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    left: 0;
-    top: 0;
-    background: $gradient-color;
-    opacity: 0.9;
-  }
-
+  padding: 30px 80px;
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  background: $dark-bg-color;
+  border-radius: 3px;
   .newsletter-content {
+    
     position: relative;
-    max-width: 660px;
-    margin: auto;
     .sub-title {
-      text-transform: uppercase;
       color: #ffffff;
-      display: block;
-      margin-bottom: 10px;
     }
     h2 {
+      margin-bottom: 10px;
       color: $white-color;
-      font-size: 40px;
+      font-weight: 500;
+      font-size: 29px;
+      font-family: $main-font-family;
+      line-height: 35px;
+      letter-spacing: 0.02em;
     }
 
     .newsletter-form {
@@ -6005,12 +6033,11 @@ Footer CSS
         height: 30px;
         line-height: 30px;
         text-align: center;
-        background-color: #4a4a4a;
-        border-radius: 50%;
-        color: $white-color;
+        border-radius: 8px;
+        color: $main-color;
         position: relative;
         z-index: 1;
-        font-size: 13px;
+        font-size: 18px;
         margin-right: 5px;
 
         &::before {
@@ -6043,30 +6070,31 @@ Footer CSS
   }
   h3 {
     position: relative;
-    margin-bottom: 25px;
     padding-bottom: 10px;
+    text-transform: uppercase;
     font: {
-      size: 24px;
-      weight: 600;
+      family: $main-font-family;
+      weight: 700;
+      size: 15px;
     }
-    &::before {
-      content: '';
-      position: absolute;
-      left: 0;
-      bottom: 0;
-      width: 55px;
-      height: 3px;
-      background: $gradient-color;
-    }
-    &::after {
-      content: '';
-      position: absolute;
-      left: 35px;
-      bottom: 0;
-      height: 3px;
-      background: #f6f9fc;
-      width: 5px;
-    }
+    // &::before {
+    //   content: '';
+    //   position: absolute;
+    //   left: 0;
+    //   bottom: 0;
+    //   width: 55px;
+    //   height: 3px;
+    //   background: $gradient-color;
+    // }
+    // &::after {
+    //   content: '';
+    //   position: absolute;
+    //   left: 35px;
+    //   bottom: 0;
+    //   height: 3px;
+    //   background: #f6f9fc;
+    //   width: 5px;
+    // }
   }
   ul {
     &.list {
