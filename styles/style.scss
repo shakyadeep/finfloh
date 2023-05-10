@@ -143,6 +143,9 @@ button {
   line-height: 28px;
   letter-spacing: 0.01em;
 }
+.green_bg {
+  background-color: $greenish-bg-color;
+}
 .border {
   border-color: #eee !important;
 }
@@ -240,7 +243,36 @@ a {
   max-width: 575px;
   padding-left: 50px;
 }
-
+.dark_bg {
+  background-color: $dark-bg-color !important;
+  .sub_text {
+    color: white;
+  }
+  .small_text {
+    color: $greenish-bg-color;
+  }
+}
+.link_box {
+  width: 100%;
+  padding: 74px 50px;
+  background: $light-bg-color;
+  border-radius: 7px;
+  display: inline-flex;
+  flex-flow: row;
+  align-items: center;
+  &.dark_bg {
+    background-color: $dark-bg-color;
+    .sub_text {
+      color: white;
+    }
+    .small_text {
+      color: $greenish-bg-color;
+    }
+  }
+}
+.slider_box {
+  min-height: 269.19px;
+}
 .rounded-10 {
   border-radius: 10px;
 }
@@ -262,6 +294,9 @@ a {
   align-items: center;
   padding: 15px 29px;
   color: $white-color;
+  &:hover {
+    color: $white-color;
+  }
 }
 .btn {
   border: none;
@@ -1827,35 +1862,6 @@ Featured Services CSS
     z-index: -1;
     text-transform: uppercase;
     transition: $transition;
-  }
-  &:hover,
-  &:focus,
-  &.active {
-    &::before {
-      opacity: 1;
-      visibility: visible;
-    }
-    .icon {
-      color: $white-color;
-    }
-    p {
-      color: $white-color;
-    }
-    h3 {
-      color: $white-color;
-      a {
-        color: $white-color;
-        &:hover {
-          text-decoration: underline;
-        }
-      }
-    }
-    .read-more-btn {
-      color: $white-color;
-    }
-    .back-text {
-      opacity: 0.1;
-    }
   }
 }
 .read-more-btn {
@@ -6011,23 +6017,27 @@ FAQ CSS
         margin-bottom: 0;
       }
       .accordion__button {
-        display: block;
+        display: flex;
         padding: 12px 45px 12px 15px;
         text-decoration: none;
         position: relative;
-        background: #f5f9ff;
+        background: $white-color;
         color: $black-color;
+        line-height: 28px;
+        border-bottom: 1px solid #e3e6c8;
         font: {
-          size: 18px;
-          weight: 700;
-          family: $heading-font-family;
+          size: 19px;
+          weight: 500;
+          family: $main-font-family;
         }
         &:hover,
         &.active,
         &:focus {
-          background: $main-color;
-          color: $white-color;
           outline: 0;
+        }
+        &:before {
+          position: absolute;
+          right: 0;
         }
       }
       .accordion-content {
