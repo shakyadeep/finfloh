@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Navbar from "../components/Layouts/Navbar";
 import MainBanner from "../components/StartupAgencyTwo/MainBanner";
-// import FeaturedServices from "../components/StartupAgencyTwo/FeaturedServices";
+import FeaturedServices from "../components/StartupAgencyTwo/FeaturedServices";
 // import CaseStudies from "../components/StartupAgencyTwo/CaseStudies";
 // import FeedbackTwo from "../components/Common/FeedbackTwo";
 // import BestServices from "../components/StartupAgencyTwo/BestServices";
@@ -16,6 +16,8 @@ import Newsletter from "../components/Common/Newsletter";
 // import CtaAreaTwo from "../components/Common/CtaAreaTwo";
 import Footer from "../components/Layouts/Footer";
 import Customers from "../components/Common/Customers";
+import FaqForm from "../components/Faq/FaqForm";
+import FaqContent from "../components/Faq/FaqContent";
 // import FaqContent from "../components/Faq/FaqContent";
 
 class FinFlohHome extends Component {
@@ -25,7 +27,7 @@ class FinFlohHome extends Component {
         <Navbar />
 
         <MainBanner />
-
+        <FeaturedServices />
         <Customers />
 
         <section className="customer_section ptb-100">
@@ -137,11 +139,49 @@ class FinFlohHome extends Component {
             </div>
           </div>
         </section>
+        <section className="customer_section pb-100">
+          <div className="container">
+            <div className="row">
+              <div className="col-lg-6 col-sm-6 col-md-6 d-flex justify-content-center align-items-center">
+                <div className="link_box">
+                  <div>
+                    <h3 className="sub_text">
+                      Trim Bad Debt with <br /> Activated Credit Decisions
+                    </h3>
+                    <p className="small_text">
+                      Manage your customers with real-time risk alerts and audit
+                      trails
+                    </p>
+                  </div>
+                  <a href="#">
+                    <img src="/images/greenarrow.svg" />{" "}
+                  </a>
+                </div>
+              </div>
+              <div className="col-lg-6 col-sm-6 col-md-6 d-flex justify-content-center align-items-center">
+                <div className="link_box dark_bg">
+                  <div>
+                    <h3 className="sub_text">
+                      Trim Bad Debt with <br /> Activated Credit Decisions
+                    </h3>
+                    <p className="small_text">
+                      Manage your customers with real-time risk alerts and audit
+                      trails
+                    </p>
+                  </div>
+                  <a href="#">
+                    <img src="/images/greenarrow.svg" />{" "}
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
         <section className="ptb-100 grey_bg seamless_section">
           <div className="container">
             <div className="row">
               <div className="col-lg-6 col-sm-6 col-md-6 d-flex justify-content-center align-items-center">
-                <div className="single-team content_box">
+                <div className="single-team content_box p-0">
                   <div className="tag">Integrate Seamlessly</div>
                   <h3 className="sub_text">
                     Get, set and go <br /> on Day 1
@@ -161,6 +201,7 @@ class FinFlohHome extends Component {
             </div>
           </div>
         </section>
+        <FaqContent />
         {/* <CaseStudies />
 
         <Feedback />

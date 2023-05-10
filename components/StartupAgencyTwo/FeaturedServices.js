@@ -48,7 +48,8 @@ class FeaturedServices extends Component {
             <div className="row">
               <div className="col-md-12">
                 <div className="page_header">
-                  Building Trust <br /> With Simplicity
+                  Revamp Your Outdated <br />
+                  Account Receivables workflows
                 </div>
               </div>
             </div>
@@ -58,150 +59,38 @@ class FeaturedServices extends Component {
                 {...options}
               >
                 <div className="featured-services-box">
-                  <div className="icon">
-                    <i className="pe-7s-filter"></i>
-                  </div>
-                  <h3>
-                    <Link href="/service-details">
-                      <a>Information Architect</a>
-                    </Link>
-                  </h3>
-                  <p>
-                    Quis ipsum suspendisse ultrices gravida. Risus commodo
-                    viverra maecenas accumsan lacus vel facilisis.
+                  <h3 className="sub_text">Automate Receivables Workflows</h3>
+                  <p className="small_text">
+                    Set aside manual processes <br />& minimize errors
                   </p>
-
-                  <Link href="/service-details">
-                    <a className="read-more-btn">Read More</a>
-                  </Link>
-
-                  <div className="back-text">Ia</div>
                 </div>
 
-                <div className="featured-services-box">
-                  <div className="icon">
-                    <i className="pe-7s-display1"></i>
-                  </div>
-                  <h3>
-                    <Link href="/service-details">
-                      <a>Business Analyst</a>
-                    </Link>
+                <div className="featured-services-box green_bg">
+                  <h3 className="sub_text">
+                    Predict Customer
+                    <br /> Payments
                   </h3>
-                  <p>
-                    Quis ipsum suspendisse ultrices gravida. Risus commodo
-                    viverra maecenas accumsan lacus vel facilisis.
+                  <p className="small_text">
+                    Have better control over your cashflows
                   </p>
-
-                  <Link href="/service-details">
-                    <a className="read-more-btn">Read More</a>
-                  </Link>
-
-                  <div className="back-text">Ba</div>
                 </div>
-
-                <div className="featured-services-box">
-                  <div className="icon">
-                    <i className="pe-7s-plugin"></i>
-                  </div>
-                  <h3>
-                    <Link href="/service-details">
-                      <a>Interaction Designer</a>
-                    </Link>
+                <div className="featured-services-box dark_bg">
+                  <h3 className="sub_text">
+                    Collaborate With
+                    <br /> Customers & Teams
                   </h3>
-                  <p>
-                    Quis ipsum suspendisse ultrices gravida. Risus commodo
-                    viverra maecenas accumsan lacus vel facilisis.
+                  <p className="small_text">
+                    Cut down time and efforts wasted in disputes and issues
                   </p>
-
-                  <Link href="/service-details">
-                    <a className="read-more-btn">Read More</a>
-                  </Link>
-
-                  <div className="back-text">Id</div>
                 </div>
-
-                <div className="featured-services-box">
-                  <div className="icon">
-                    <i className="pe-7s-arc"></i>
-                  </div>
-                  <h3>
-                    <Link href="/service-details">
-                      <a>Information Architect</a>
-                    </Link>
+                <div className="featured-services-box dark_bg">
+                  <h3 className="sub_text">
+                    Collect Timely
+                    <br /> &  Strategically
                   </h3>
-                  <p>
-                    Quis ipsum suspendisse ultrices gravida. Risus commodo
-                    viverra maecenas accumsan lacus vel facilisis.
+                  <p className="small_text">
+                    Avoid last-minute surprises and delayed payments
                   </p>
-
-                  <Link href="/service-details">
-                    <a className="read-more-btn">Read More</a>
-                  </Link>
-
-                  <div className="back-text">Ia</div>
-                </div>
-
-                <div className="featured-services-box">
-                  <div className="icon">
-                    <i className="pe-7s-diamond"></i>
-                  </div>
-                  <h3>
-                    <Link href="/service-details">
-                      <a>Visual Designer</a>
-                    </Link>
-                  </h3>
-                  <p>
-                    Quis ipsum suspendisse ultrices gravida. Risus commodo
-                    viverra maecenas accumsan lacus vel facilisis.
-                  </p>
-
-                  <Link href="/service-details">
-                    <a className="read-more-btn">Read More</a>
-                  </Link>
-
-                  <div className="back-text">Vd</div>
-                </div>
-
-                <div className="featured-services-box">
-                  <div className="icon">
-                    <i className="pe-7s-helm"></i>
-                  </div>
-                  <h3>
-                    <Link href="/service-details">
-                      <a>Content Strategist</a>
-                    </Link>
-                  </h3>
-                  <p>
-                    Quis ipsum suspendisse ultrices gravida. Risus commodo
-                    viverra maecenas accumsan lacus vel facilisis.
-                  </p>
-
-                  <Link href="/service-details">
-                    <a className="read-more-btn">Read More</a>
-                  </Link>
-
-                  <div className="back-text">Cr</div>
-                </div>
-
-                <div className="featured-services-box">
-                  <div className="icon">
-                    <i className="pe-7s-magnet"></i>
-                  </div>
-                  <h3>
-                    <Link href="/service-details">
-                      <a>UX Strategist</a>
-                    </Link>
-                  </h3>
-                  <p>
-                    Quis ipsum suspendisse ultrices gravida. Risus commodo
-                    viverra maecenas accumsan lacus vel facilisis.
-                  </p>
-
-                  <Link href="/service-details">
-                    <a className="read-more-btn">Read More</a>
-                  </Link>
-
-                  <div className="back-text">Ux</div>
                 </div>
               </OwlCarousel>
             ) : (
