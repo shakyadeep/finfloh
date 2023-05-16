@@ -29,6 +29,9 @@ $transition: 0.5s;
   body {
     font-size: $font-size;
   }
+  .content_box {
+    padding: 0;
+  }
   p {
     font-size: $font-size;
   }
@@ -1335,11 +1338,13 @@ $transition: 0.5s;
   }
   .newsletter-inner-area {
     padding: 50px 20px;
-
+    flex-flow: column;
     .newsletter-content {
       h2 {
         font-size: 25px;
       }
+      .sub-title {
+       margin-bottom: 10px;
     }
   }
 
@@ -1574,6 +1579,24 @@ $transition: 0.5s;
     .container-fluid {
       padding-left: 15px;
       padding-right: 15px;
+    }
+  }
+  .link_box {
+    margin-bottom: 20px;
+  }
+  .seamless_section {
+    background-image: none;
+  }
+  .featured-services-box {
+    max-height: 198px;
+    background-size: 180px;
+    background-position-y: bottom;
+    padding: 17px 20px;
+    h3 {
+      max-width: 250px;
+    }
+    p {
+      max-width: 250px;
     }
   }
 }
