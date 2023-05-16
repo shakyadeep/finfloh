@@ -31,8 +31,8 @@ class Navbar extends Component {
   render() {
     const { collapsed } = this.state;
     const classOne = collapsed
-      ? "collapse navbar-collapse"
-      : "collapse navbar-collapse show";
+      ? "collapse navbar-collapse justify-content-end"
+      : "collapse navbar-collapse justify-content-end show";
     const classTwo = collapsed
       ? "navbar-toggler navbar-toggler-right collapsed"
       : "navbar-toggler navbar-toggler-right";
@@ -65,7 +65,7 @@ class Navbar extends Component {
               </button>
 
               <div className={classOne} id="navbarSupportedContent">
-                <ul className="navbar-nav">
+                {/* <ul className="navbar-nav">
                   <li className="nav-item">
                     <Link href="#">
                       <a
@@ -167,7 +167,7 @@ class Navbar extends Component {
                       </a>
                     </Link>
                   </li>
-                </ul>
+                </ul> */}
 
                 <div className="others-options">
                   <Link href="/">

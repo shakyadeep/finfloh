@@ -3,6 +3,9 @@
   body {
     font-size: 16px;
   }
+  .content_box {
+    padding: 0;
+  }
   p {
     font-size: 16px;
   }
@@ -954,6 +957,7 @@
   }
   .newsletter-inner-area {
     padding: 50px 20px;
+    flex-flow: column;
   }
   .newsletter-inner-area .newsletter-content h2 {
     font-size: 25px;
@@ -1110,6 +1114,24 @@
   .navbar-area .container-fluid {
     padding-left: 15px;
     padding-right: 15px;
+  }
+  .link_box {
+    margin-bottom: 20px;
+  }
+  .seamless_section {
+    background-image: none;
+  }
+  .featured-services-box {
+    max-height: 198px;
+    background-size: 180px;
+    background-position-y: bottom;
+    padding: 17px 20px;
+  }
+  .featured-services-box h3 {
+    max-width: 250px;
+  }
+  .featured-services-box p {
+    max-width: 250px;
   }
 }
 /* Min width 576px to Max width 767px */

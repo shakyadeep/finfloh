@@ -43,7 +43,7 @@ class FeaturedServices extends Component {
   render() {
     return (
       <>
-        <section className="featured-services-area ptb-100">
+        <section className="featured-services-area grey_bg ptb-100">
           <div className="container">
             <div className="row">
               <div className="col-md-12">
@@ -58,7 +58,7 @@ class FeaturedServices extends Component {
                 className="featured-services-slides owl-carousel owl-theme"
                 {...options}
               >
-                <div className="featured-services-box">
+                <div className="featured-services-box white_bg">
                   <h3 className="sub_text">Automate Receivables Workflows</h3>
                   <p className="small_text">
                     Set aside manual processes <br />& minimize errors
@@ -83,7 +83,7 @@ class FeaturedServices extends Component {
                     Cut down time and efforts wasted in disputes and issues
                   </p>
                 </div>
-                <div className="featured-services-box dark_bg">
+                <div className="featured-services-box white_bg2">
                   <h3 className="sub_text">
                     Collect Timely
                     <br /> &  Strategically

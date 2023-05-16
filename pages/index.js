@@ -2,23 +2,10 @@ import React, { Component } from "react";
 import Navbar from "../components/Layouts/Navbar";
 import MainBanner from "../components/StartupAgencyTwo/MainBanner";
 import FeaturedServices from "../components/StartupAgencyTwo/FeaturedServices";
-// import CaseStudies from "../components/StartupAgencyTwo/CaseStudies";
-// import FeedbackTwo from "../components/Common/FeedbackTwo";
-// import BestServices from "../components/StartupAgencyTwo/BestServices";
-// import Partner from "../components/Common/Partner";
-// import Feedback from "../components/Common/Feedback";
-// import Portfolio from "../components/StartupAgencyTwo/Portfolio";
-// import TeamStyleFour from "../components/Common/TeamStyleFour";
-// import FunFactsTwo from "../components/Common/FunFactsTwo";
-// import WorkProcess from "../components/StartupAgencyTwo/WorkProcess";
-// import PricingStyleThree from "../components/Pricing/PricingStyleThree";
 import Newsletter from "../components/Common/Newsletter";
-// import CtaAreaTwo from "../components/Common/CtaAreaTwo";
 import Footer from "../components/Layouts/Footer";
-import Customers from "../components/Common/Customers";
-import FaqForm from "../components/Faq/FaqForm";
+// import Customers from "../components/Common/Customers";
 import FaqContent from "../components/Faq/FaqContent";
-// import FaqContent from "../components/Faq/FaqContent";
 
 class FinFlohHome extends Component {
   render() {
@@ -28,7 +15,7 @@ class FinFlohHome extends Component {
 
         <MainBanner />
 
-        <Customers />
+        {/* <Customers /> */}
         <FeaturedServices />
         <section className="customer_section ptb-100">
           <div className="container">
@@ -149,8 +136,8 @@ class FinFlohHome extends Component {
                       Trim Bad Debt with <br /> Activated Credit Decisions
                     </h3>
                     <p className="small_text">
-                      Manage your customers with real-time risk alerts and audit
-                      trails
+                      Manage your customers with real-time risk <br />
+                       alerts and audit trails
                     </p>
                   </div>
                   <a href="#">
@@ -162,11 +149,11 @@ class FinFlohHome extends Component {
                 <div className="link_box dark_bg">
                   <div>
                     <h3 className="sub_text">
-                      Trim Bad Debt with <br /> Activated Credit Decisions
+                      Predict Working Capital with <br /> AI-driven Reports
                     </h3>
                     <p className="small_text">
-                      Manage your customers with real-time risk alerts and audit
-                      trails
+                      Analyze past/current trends and use <br />
+                      predictive AI to predict customer payments
                     </p>
                   </div>
                   <a href="#">
@@ -202,24 +189,7 @@ class FinFlohHome extends Component {
           </div>
         </section>
         <FaqContent />
-        {/* <CaseStudies />
 
-        <Feedback />
-
-        <Portfolio />
-
-        <TeamStyleFour />
-
-        <FunFactsTwo />
-
-        <WorkProcess />
-
-        <div className="ptb-100">
-          <Newsletter />
-        </div>
-
-        <CtaAreaTwo /> */}
-        {/* <FaqContent /> */}
         <div className="ptb-100">
           <Newsletter />
         </div>
