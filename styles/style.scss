@@ -320,6 +320,7 @@ a.link_txt {
   font-weight: 700;
   font-size: 15px;
   line-height: 22px;
+  cursor: pointer;
 }
 .tag {
   font-weight: 500;
@@ -400,6 +401,7 @@ a.link_txt {
   align-items: center;
   padding: 15px 29px;
   color: $color_6;
+  cursor: pointer;
   &:hover {
     color: $color_6;
   }
@@ -2594,6 +2596,11 @@ label {
     border-radius: 0px 3px 3px 0px;
     padding: 0 30px;
     font-weight: 600;
+    &.modal_submit {
+      position: initial;
+      width: 100%;
+      margin-top: 20px;
+    }
   }
 }
 .newsletter {
@@ -2636,6 +2643,14 @@ label {
       margin-top: 20px;
     }
   }
+}
+.offcanvas-title.h5 {
+  font-family: $font-family_2;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 23px;
+  line-height: 28px;
+  letter-spacing: 0.03em;
 }
 .newsletter-inner-area {
   padding: 30px 80px;
