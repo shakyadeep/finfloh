@@ -1,123 +1,114 @@
-import React, { Component } from "react";
-import Link from "next/link";
+import React, { useRef, useState } from "react";
 import dynamic from "next/dynamic";
-const ModalVideo = dynamic(() => import("react-modal-video"), {
-  ssr: false,
-});
-import Particles from "react-particles-js";
+import emailjs from "@emailjs/browser";
+import ThanksPopup from "../Common/ThanksPopup";
 
-const particleOpt = {
-  particles: {
-    number: {
-      value: 160,
-      density: {
-        enable: false,
-      },
-    },
-    color: {
-      value: ["#BD10E0", "#B8E986", "#50E3C2", "#FFD300", "#E86363"],
-    },
-    size: {
-      value: 10,
-      random: true,
-    },
-    move: {
-      direction: "bottom",
-      out_mode: "out",
-      speed: 2,
-    },
-    line_linked: {
-      enable: false,
-    },
-  },
-  interactivity: {
-    events: {
-      onclick: {
-        enable: true,
-        mode: "repulse",
-      },
-    },
-    modes: {
-      repulse: {
-        distance: 200,
-        duration: 0.4,
-      },
-    },
-  },
-};
+const MainBanner = () => {
+  const [Open, setOpen] = useState(false);
+  const [FormSuccess, setFormSuccess] = useState(false);
 
-class MainBanner extends Component {
-  state = {
-    isOpen: false,
+  const openModal = () => {
+    setOpen(true);
   };
-  openModal = () => {
-    this.setState({ isOpen: true });
+  const handelclosefn = () => {
+    setFormSuccess(false);
   };
 
-  render() {
-    return (
-      <>
-        <div className="main-banner startup-agency startup-agency2">
-          <div className="d-table">
-            <div className="d-table-cell">
-              <div className="container">
-                <div className="row align-items-center">
-                  <div className="col-lg-12">
-                    <div className="main-banner-content text-center">
-                      <h1>
-                        Collaborative 
-                        <br />
-                        Receivables Automation Platform
-                      </h1>
-                      <p>
-                        Build Intelligent Workflows, Leverage Customer Insights,
-                        <br />
-                        Accelerate Collections.
-                      </p>
-                      <div className="hero_newsletter">
-                        <form className="newsletter-form">
-                          <input
-                            type="email"
-                            className="form-control"
-                            placeholder="Email Address"
-                            name="email"
-                            required
-                          />
-                          <button type="submit">BOOK A DEMO</button>
-                        </form>
-                      </div>
-                      {/* <Link href="#">
-                        <a className="btn btn-primary">Get Started</a>
-                      </Link> */}
+  const ModalVideo = dynamic(() => import("react-modal-video"), {
+    ssr: false,
+  });
 
-                      <Link href="/#play-video">
-                        <a
-                          onClick={(e) => {
-                            e.preventDefault();
-                            this.openModal();
-                          }}
-                        >
-                          <i className="icofont-ui-play"></i> Watch a Demo
-                        </a>
-                      </Link>
+  const mainForm = useRef();
+
+  const sendEmailMain = (e) => {
+    e.preventDefault();
+    emailjs
+      .sendForm(
+        "service_g5foqnv",
+        "template_srv7cqe",
+        mainForm.current,
+        "y8nWiQjxXZt1sUOUX"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+          setFormSuccess(true);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+  };
+
+  return (
+    <>
+      <div className="main-banner startup-agency startup-agency2">
+        <div className="d-table">
+          <div className="d-table-cell">
+            <div className="container">
+              <div className="row align-items-center">
+                <div className="col-lg-12">
+                  <div className="main-banner-content text-center">
+                    <h1>
+                      Collaborative 
+                      <br />
+                      Receivables Automation Platform
+                    </h1>
+                    <p>
+                      Build Intelligent Workflows, Leverage Customer Insights,
+                      <br />
+                      Accelerate Collections.
+                    </p>
+                    <div className="hero_newsletter">
+                      <form
+                        className="newsletter-form"
+                        ref={mainForm}
+                        onSubmit={sendEmailMain}
+                      >
+                        <input
+                          type="email"
+                          className="form-control"
+                          placeholder="Email Address"
+                          name="user_email"
+                          required
+                        />
+                        <button type="submit">BOOK A DEMO</button>
+                      </form>
                     </div>
+                    {/* <Link href="#">
+                      <a className="btn btn-primary">Get Started</a>
+                    </Link> */}
+
+                    {/* <Link href="/#play-video">
+                      <a
+                        onClick={(e) => {
+                          e.preventDefault();
+                          openModal();
+                        }}
+                      >
+                        <i className="icofont-ui-play"></i> Watch a Demo
+                      </a>
+                    </Link> */}
                   </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
+      </div>
 
-        {/* If you want to change the video need to update below videoID */}
-        <ModalVideo
-          channel="youtube"
-          isOpen={this.state.isOpen}
-          videoId="_ysd-zHamjk"
-          onClose={() => this.setState({ isOpen: false })}
-        />
-      </>
-    );
-  }
-}
+      {/* If you want to change the video need to update below videoID */}
+      <ModalVideo
+        channel="youtube"
+        isOpen={Open}
+        videoId="_ysd-zHamjk"
+        onClose={() => setOpen(false)}
+      />
+      {FormSuccess && (
+        <ThanksPopup open={FormSuccess} handleClose={handelclosefn} />
+      )}
+    </>
+  );
+};
 
 export default MainBanner;

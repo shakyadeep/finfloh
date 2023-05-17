@@ -319,6 +319,7 @@ a.link_txt {
   font-weight: 700;
   font-size: 15px;
   line-height: 22px;
+  cursor: pointer;
 }
 
 .tag {
@@ -408,6 +409,7 @@ a.link_txt {
   align-items: center;
   padding: 15px 29px;
   color: #ffffff;
+  cursor: pointer;
 }
 .link_btn:hover {
   color: #ffffff;
@@ -2455,6 +2457,11 @@ label {
   padding: 0 30px;
   font-weight: 600;
 }
+.newsletter-form button.modal_submit {
+  position: initial;
+  width: 100%;
+  margin-top: 20px;
+}
 
 .newsletter {
   max-width: 750px;
@@ -2496,6 +2503,15 @@ label {
 }
 .newsletter form .validation-success {
   margin-top: 20px;
+}
+
+.offcanvas-title.h5 {
+  font-family: "Clash Display", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 23px;
+  line-height: 28px;
+  letter-spacing: 0.03em;
 }
 
 .newsletter-inner-area {
