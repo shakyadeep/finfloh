@@ -37,6 +37,7 @@ const FinFlohHome = () => {
         (result) => {
           console.log(result.text);
           setSuccess(true);
+          e.target.reset();
         },
         (error) => {
           console.log(error.text);
