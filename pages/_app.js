@@ -41,7 +41,29 @@ export default class MyApp extends App {
             name="viewport"
             content="width=device-width, initial-scale=1, shrink-to-fit=no"
           />
-          <title>FinFloh</title>
+          <meta
+            name="description"
+            content="FinFloh's accounts receivables automation solution helps you streamline invoice to cash workflows, accelerate collections, reduce disputes & predict cashflows "
+          />
+          <meta
+            name="keywords"
+            content="Receivables, AR, A/R, AR Automation,Account Receivables"
+          />
+          <title>
+            FinFloh - Collaborative Receivables Automation Platform for B2B
+            Finance Teams
+          </title>
+
+          <script
+            defer={true}
+            dangerouslySetInnerHTML={{
+              __html: `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+              new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+              j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.defer=true;j.src=
+              'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+              })(window,document,'script','dataLayer','G-GZSQ523CV1');`,
+            }}
+          />
         </Head>
 
         <Component {...pageProps} />

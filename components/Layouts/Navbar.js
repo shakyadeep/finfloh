@@ -121,11 +121,11 @@ const Navbar = (props) => {
             </ul> */}
 
               <div className="others-options">
-                <Link href="/">
+                <Link href="http://app.finfloh.com/signin">
                   <a className="btn btn-outline">SIGN IN</a>
                 </Link>
                 <button className="btn btn-primary" onClick={props.openModal}>
-                  BOOK A DEMO
+                  TRY FOR FREE
                 </button>
               </div>
             </div>

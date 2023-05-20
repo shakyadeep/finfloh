@@ -33,6 +33,7 @@ const MainBanner = () => {
         (result) => {
           console.log(result.text);
           setFormSuccess(true);
+          e.target.reset();
         },
         (error) => {
           console.log(error.text);
