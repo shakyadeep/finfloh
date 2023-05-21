@@ -120,7 +120,7 @@ const Navbar = (props) => {
               </li>
             </ul> */}
 
-              <div className="others-options">
+              <div className="others-options d-none d-sm-flex">
                 <Link href="http://app.finfloh.com/signin">
                   <a className="btn btn-outline">SIGN IN</a>
                 </Link>
