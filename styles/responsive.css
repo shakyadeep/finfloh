@@ -962,6 +962,9 @@
   .newsletter-inner-area .newsletter-content h2 {
     font-size: 25px;
   }
+  .newsletter-inner-area .newsletter-content .sub-title {
+    margin-bottom: 10px;
+  }
   .single-pricing-table .pricing-header {
     padding: 15px 25px;
   }
@@ -1132,6 +1135,18 @@
   }
   .featured-services-box p {
     max-width: 250px;
+  }
+  .content_box {
+    text-align: center;
+  }
+  .offcanvas {
+    width: 100% !important;
+  }
+  .main-banner-content a {
+    color: white;
+  }
+  .mb_newsletter .link_btn {
+    margin-top: 20px;
   }
 }
 /* Min width 576px to Max width 767px */

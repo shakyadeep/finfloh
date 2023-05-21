@@ -3,7 +3,7 @@ import dynamic from "next/dynamic";
 import emailjs from "@emailjs/browser";
 import ThanksPopup from "../Common/ThanksPopup";
 
-const MainBanner = () => {
+const MainBanner = (props) => {
   const [Open, setOpen] = useState(false);
   const [FormSuccess, setFormSuccess] = useState(false);
 
@@ -60,7 +60,7 @@ const MainBanner = () => {
                       <br />
                       Accelerate Collections.
                     </p>
-                    <div className="hero_newsletter">
+                    <div className="hero_newsletter d-none d-sm-block">
                       <form
                         className="newsletter-form"
                         ref={mainForm}
@@ -76,6 +76,9 @@ const MainBanner = () => {
                         <button type="submit">BOOK A DEMO</button>
                       </form>
                     </div>
+                    <a className="link_btn d-sm-none" onClick={props.handleFn}>
+                      BOOK A DEMO
+                    </a>
                     {/* <Link href="#">
                       <a className="btn btn-primary">Get Started</a>
                     </Link> */}
