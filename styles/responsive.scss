@@ -1344,7 +1344,8 @@ $transition: 0.5s;
         font-size: 25px;
       }
       .sub-title {
-       margin-bottom: 10px;
+        margin-bottom: 10px;
+      }
     }
   }
 
@@ -1424,8 +1425,10 @@ $transition: 0.5s;
 
   .newsletter-inner-area {
     .newsletter-content {
-      .newsletter-form button {
-        padding: 0 20px;
+      .newsletter-form {
+        button {
+          padding: 0 20px;
+        }
       }
     }
   }
@@ -1597,6 +1600,22 @@ $transition: 0.5s;
     }
     p {
       max-width: 250px;
+    }
+  }
+  .content_box {
+    text-align: center;
+  }
+  .offcanvas {
+    width: 100% !important;
+  }
+  .main-banner-content {
+    a {
+      color: white;
+    }
+  }
+  .mb_newsletter {
+    .link_btn {
+      margin-top: 20px;
     }
   }
 }

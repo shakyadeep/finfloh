@@ -3,7 +3,7 @@ const Newsletter = (props) => {
   return (
     <section className="newsletter-area">
       <div className="container">
-        <div className="newsletter-inner-area">
+        <div className="newsletter-inner-area mb_newsletter">
           <div className="newsletter-content">
             <h2>Get Paid Faster with FinFloh</h2>
             <span className="sub-title">
@@ -12,7 +12,7 @@ const Newsletter = (props) => {
             </span>
           </div>
           <form
-            className="newsletter-form"
+            className="newsletter-form d-none d-sm-block"
             ref={props.reference1}
             onSubmit={props.mailer1}
           >
@@ -25,6 +25,9 @@ const Newsletter = (props) => {
             />
             <button type="submit">BOOK A DEMO</button>
           </form>
+          <a className="link_btn d-sm-none" onClick={props.popupfn}>
+            BOOK A DEMO
+          </a>
         </div>
       </div>
     </section>

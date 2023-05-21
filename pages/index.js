@@ -49,7 +49,7 @@ const FinFlohHome = () => {
     <>
       <Navbar openModal={handleButtonClick} />
 
-      <MainBanner />
+      <MainBanner handleFn={handleButtonClick} />
 
       {/* <Customers /> */}
       <FeaturedServices />
@@ -116,12 +116,17 @@ const FinFlohHome = () => {
                 </p>
               </div>
             </div>
-            <div className="col-lg-12 col-sm-12 col-md-12">
+            <div className="col-lg-12 col-sm-12 col-md-12 p-sm-0">
               <div className="col-img">
                 <img
                   src="/images/BuyerIntelligence.png"
                   alt="image"
-                  className="img-responsive"
+                  className="img-responsive d-none d-sm-block"
+                />
+                <img
+                  src="/images/CreditScore-mb.svg"
+                  alt="image"
+                  className="img-fluid d-block d-sm-none w-100"
                 />
               </div>
             </div>
@@ -155,7 +160,12 @@ const FinFlohHome = () => {
                 <img
                   src="/images/3rdsec.png"
                   alt="image"
-                  className="img-responsive"
+                  className="img-responsive d-none d-sm-block"
+                />
+                <img
+                  src="/images/Reminder-mb.svg"
+                  alt="image"
+                  className="img-responsive  d-block d-sm-none w-100"
                 />
               </div>
             </div>
@@ -215,19 +225,31 @@ const FinFlohHome = () => {
                   your receivables with ease.
                 </p>
                 <p>
-                  <a className="link_btn" onClick={handleButtonClick}>
+                  <a
+                    className="link_btn d-none d-sm-block"
+                    onClick={handleButtonClick}
+                  >
                     Integrate Now <img src="/images/whiteuparrow.svg" />{" "}
                   </a>
                 </p>
               </div>
             </div>
+            <img
+              src="/images/Integrate_seamlessly-mb.svg"
+              alt="image"
+              className="img-responsive  d-block d-sm-none w-100"
+            />
           </div>
         </div>
       </section>
       <FaqContent openModal={handleButtonClick} />
 
       <div className="ptb-100">
-        <Newsletter reference1={form} mailer1={sendEmail} />
+        <Newsletter
+          reference1={form}
+          mailer1={sendEmail}
+          popupfn={handleButtonClick}
+        />
       </div>
       <Footer />
       {isPopupVisible && (
