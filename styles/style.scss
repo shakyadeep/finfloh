@@ -395,12 +395,12 @@ a.link_txt {
   text-transform: uppercase;
   background: #00954a;
   border-radius: 3px;
-  display: inline-flex;
+  display: inline-flex !important;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   padding: 15px 29px;
-  color: $white-color;
+  color: white;
   cursor: pointer;
   &:hover {
     color: $color_6;
