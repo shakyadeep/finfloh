@@ -226,7 +226,7 @@ const FinFlohHome = () => {
                 </p>
                 <p>
                   <a
-                    className="link_btn d-none d-sm-block"
+                    className="link_btn d-none d-sm-inline-flex"
                     onClick={handleButtonClick}
                   >
                     Integrate Now <img src="/images/whiteuparrow.svg" />{" "}
