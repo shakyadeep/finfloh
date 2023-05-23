@@ -107,6 +107,15 @@
   .navbar-area.navbar-style-2 nav .navbar-nav .nav-item a {
     color: #0c1612;
   }
+  .small_text {
+    font-size: 14px;
+  }
+  .page_header {
+    font-size: 23px;
+  }
+  .pm-0 {
+    padding: 0;
+  }
   .main-banner {
     height: 100%;
     padding-top: 130px;
@@ -143,7 +152,7 @@
     font-size: 14px;
   }
   .main-banner-content h1 {
-    font-size: 30px;
+    font-size: 29px;
     margin: 12px 0 13px;
   }
   .main-banner-content .btn-primary {
@@ -1126,7 +1135,7 @@
   }
   .featured-services-box {
     max-height: 198px;
-    background-size: 180px;
+    background-size: 140px;
     background-position-y: bottom;
     padding: 17px 20px;
   }

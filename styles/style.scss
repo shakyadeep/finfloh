@@ -2579,7 +2579,7 @@ label {
     font-weight: 500;
     font-size: 19px;
     color: $color_2;
-    border: 2px solid #e3e6c8;
+    border: 1px solid #e3e6c8;
     &:focus {
       border-color: $color_3;
     }
@@ -2591,12 +2591,13 @@ label {
     border: none;
     top: 0;
     right: 0;
-    top: 5px;
-    right: 5px;
-    height: 50px;
+    top: 0px;
+    right: 0px;
+    height: 60px;
     border-radius: 0px 3px 3px 0px;
     padding: 0 30px;
     font-weight: 600;
+    width: 177px;
     &.modal_submit {
       position: initial;
       width: 100%;
@@ -2899,8 +2900,11 @@ label {
   }
 }
 .single-footer-widget {
+  &.text-right {
+    text-align: right;
+  }
   .logo {
-    margin-bottom: 10px;
+    margin-bottom: 30px;
     a {
       font-weight: bold;
       color: $color_2;
@@ -2930,7 +2934,7 @@ label {
         color: $color_3;
         position: relative;
         z-index: 1;
-        font-size: 18px;
+        font-size: 25px;
         margin-right: 5px;
       }
       &:last-child {
