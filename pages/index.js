@@ -81,7 +81,7 @@ const FinFlohHome = () => {
                 </p>
               </div>
             </div>
-            <div className="col-lg-6 col-sm-6 col-md-6">
+            <div className="col-lg-6 col-sm-6 col-md-6 pm-0">
               <div className="col-img">
                 <img
                   src="/images/Collaboration.png"
@@ -116,7 +116,7 @@ const FinFlohHome = () => {
                 </p>
               </div>
             </div>
-            <div className="col-lg-12 col-sm-12 col-md-12 p-sm-0">
+            <div className="col-lg-12 col-sm-12 col-md-12 p-sm-0 pm-0">
               <div className="col-img">
                 <img
                   src="/images/BuyerIntelligence.png"
@@ -155,7 +155,7 @@ const FinFlohHome = () => {
                 </p>
               </div>
             </div>
-            <div className="col-lg-6 col-sm-6 col-md-6">
+            <div className="col-lg-6 col-sm-6 col-md-6 pm-0">
               <div className="col-img">
                 <img
                   src="/images/3rdsec.png"

@@ -2439,7 +2439,7 @@ label {
   font-weight: 500;
   font-size: 19px;
   color: #0c1612;
-  border: 2px solid #e3e6c8;
+  border: 1px solid #e3e6c8;
 }
 .newsletter-form .form-control:focus {
   border-color: #00954a;
@@ -2451,12 +2451,13 @@ label {
   border: none;
   top: 0;
   right: 0;
-  top: 5px;
-  right: 5px;
-  height: 50px;
+  top: 0px;
+  right: 0px;
+  height: 60px;
   border-radius: 0px 3px 3px 0px;
   padding: 0 30px;
   font-weight: 600;
+  width: 177px;
 }
 .newsletter-form button.modal_submit {
   position: initial;
@@ -2753,8 +2754,11 @@ label {
   font-size: 16px;
 }
 
+.single-footer-widget.text-right {
+  text-align: right;
+}
 .single-footer-widget .logo {
-  margin-bottom: 10px;
+  margin-bottom: 30px;
 }
 .single-footer-widget .logo a {
   font-weight: bold;
@@ -2786,7 +2790,7 @@ label {
   color: #00954a;
   position: relative;
   z-index: 1;
-  font-size: 18px;
+  font-size: 25px;
   margin-right: 5px;
 }
 .single-footer-widget .social-links li:last-child {

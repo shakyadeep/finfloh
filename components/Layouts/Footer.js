@@ -103,7 +103,7 @@ class Footer extends Component {
                 </div> */}
               </div>
               <div className="col-lg-3 col-sm-6">
-                <div className="single-footer-widget">
+                <div className="single-footer-widget text-right">
                   <h3>Contact</h3>
                   <p>San Francisco | Bangalore</p>
                   <p>hello@finfloh.com</p>
@@ -111,7 +111,10 @@ class Footer extends Component {
 
                   <ul className="social-links">
                     <li>
-                      <a href="linkedin.com" target="_blank">
+                      <a
+                        href="https://www.linkedin.com/company/finfloh"
+                        target="_blank"
+                      >
                         <i className="icofont-linkedin"></i>
                       </a>
                     </li>
@@ -131,11 +134,11 @@ class Footer extends Component {
             </div>
           </div>
 
-          <div className="copyright-area">
+          {/* <div className="copyright-area">
             <div className="container">
               <p>Copyright &copy; {currentYear} FinFloh.</p>
             </div>
-          </div>
+          </div> */}
         </footer>
       </>
     );

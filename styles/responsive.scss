@@ -163,7 +163,15 @@ $transition: 0.5s;
       }
     }
   }
-
+  .small_text {
+    font-size: 14px;
+  }
+  .page_header {
+    font-size: 23px;
+  }
+  .pm-0 {
+    padding: 0;
+  }
   // .navbar-area {
   //     nav {
   //         .navbar-nav {
@@ -244,7 +252,7 @@ $transition: 0.5s;
       font-size: 14px;
     }
     h1 {
-      font-size: 30px;
+      font-size: 29px;
       margin: 12px 0 13px;
     }
     .btn-primary {
@@ -1592,7 +1600,7 @@ $transition: 0.5s;
   }
   .featured-services-box {
     max-height: 198px;
-    background-size: 180px;
+    background-size: 140px;
     background-position-y: bottom;
     padding: 17px 20px;
     h3 {
