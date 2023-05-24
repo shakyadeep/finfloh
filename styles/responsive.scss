@@ -1215,6 +1215,9 @@ $transition: 0.5s;
       bottom: 30px;
       left: 0 !important;
     }
+    &.text-right {
+      text-align: center;
+    }
     h3 {
       font-size: 19px;
 
@@ -1245,6 +1248,15 @@ $transition: 0.5s;
         }
       }
     }
+  }
+  .fixed_btn {
+    position: fixed;
+    bottom: 30px;
+    left: 0;
+    right: 0;
+    max-width: 200px;
+    margin: 0 auto;
+    z-index: 4;
   }
   .copyright-area {
     margin-top: 30px;

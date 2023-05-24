@@ -79,6 +79,7 @@ const MainBanner = (props) => {
                     <a className="link_btn d-sm-none" onClick={props.handleFn}>
                       BOOK A DEMO
                     </a>
+
                     {/* <Link href="#">
                       <a className="btn btn-primary">Get Started</a>
                     </Link> */}
@@ -111,6 +112,9 @@ const MainBanner = (props) => {
       {FormSuccess && (
         <ThanksPopup open={FormSuccess} handleClose={handelclosefn} />
       )}
+      <a className="link_btn d-sm-none fixed_btn" onClick={props.handleFn}>
+        BOOK A DEMO
+      </a>
     </>
   );
 };
