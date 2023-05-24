@@ -860,6 +860,9 @@
     margin-bottom: 30px;
     margin-left: 0 !important;
   }
+  .single-footer-widget.text-right {
+    text-align: center;
+  }
   .single-footer-widget h3 {
     font-size: 19px;
   }
@@ -884,6 +887,15 @@
   }
   .single-footer-widget ul.get-in-touch li:first-child {
     margin-bottom: 30px;
+  }
+  .fixed_btn {
+    position: fixed;
+    bottom: 30px;
+    left: 0;
+    right: 0;
+    max-width: 200px;
+    margin: 0 auto;
+    z-index: 4;
   }
   .copyright-area {
     margin-top: 30px;
