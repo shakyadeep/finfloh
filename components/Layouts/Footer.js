@@ -134,11 +134,11 @@ class Footer extends Component {
             </div>
           </div>
 
-          {/* <div className="copyright-area">
+          <div className="copyright-area">
             <div className="container">
-              <p>Copyright &copy; {currentYear} FinFloh.</p>
+              {/* <p>Copyright &copy; {currentYear} FinFloh.</p> */}
             </div>
-          </div> */}
+          </div>
         </footer>
       </>
     );
