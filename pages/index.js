@@ -28,10 +28,10 @@ const FinFlohHome = () => {
     e.preventDefault();
     emailjs
       .sendForm(
-        "service_g5foqnv",
-        "template_srv7cqe",
+        "service_duwcr2b",
+        "template_mf4qcim",
         form.current,
-        "y8nWiQjxXZt1sUOUX"
+        "eYpYIaQsGFViF3_LO"
       )
       .then(
         (result) => {
