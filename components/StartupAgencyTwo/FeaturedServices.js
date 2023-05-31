@@ -59,7 +59,9 @@ class FeaturedServices extends Component {
                 {...options}
               >
                 <div className="featured-services-box white_bg">
-                  <h3 className="sub_text">Automate Receivables Workflows</h3>
+                  <h3 className="sub_text">
+                    Automate Receivables <br /> Workflows
+                  </h3>
                   <p className="small_text">
                     Set aside manual processes <br />& minimize errors
                   </p>
@@ -67,29 +69,30 @@ class FeaturedServices extends Component {
 
                 <div className="featured-services-box green_bg">
                   <h3 className="sub_text">
-                    Predict Customer
-                    <br /> Payments
+                    Predict Receivables <br /> & Cashflows
                   </h3>
                   <p className="small_text">
-                    Have better control over your cashflows
+                    Have better control over your cashflows to Better
+                    forecasting & treasury management"
                   </p>
                 </div>
                 <div className="featured-services-box dark_bg">
                   <h3 className="sub_text">
-                    Collaborate With
-                    <br /> Customers & Teams
+                    Update to Collaborate with <br /> Customer & Internal Teams
                   </h3>
                   <p className="small_text">
-                    Cut down time and efforts wasted in disputes and issues
+                    Cut down time and efforts wasted in dispute, issues and
+                    confusions
                   </p>
                 </div>
                 <div className="featured-services-box white_bg2">
                   <h3 className="sub_text">
                     Collect Timely
-                    <br /> &  Strategically
+                    <br /> & Strategically
                   </h3>
                   <p className="small_text">
-                    Avoid last-minute surprises and delayed payments
+                    Avoid last-minute surprises & delayed payments to Get rid of
+                    delayed payments & standard dunning
                   </p>
                 </div>
               </OwlCarousel>

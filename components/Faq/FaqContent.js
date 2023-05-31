@@ -39,15 +39,16 @@ const FaqContent = (props) => {
                     </AccordionItemHeading>
                     <AccordionItemPanel>
                       <p>
-                        FinFloh is a global accounts receivables automation
-                        platform that enables B2B finance teams to improve their
-                        collections process by collecting receivables faster,
-                        reducing DSO, disputes, and bad debt, and enhancing
-                        overall collections efficiency. Collaborative
-                        communication is at the center of FinFloh's technology,
-                        bringing together finance, sales, and customer support
-                        teams to help resolve issues and disputes efficiently,
-                        which ultimately leads to increased cash flow.
+                        FinFloh is an Invoice-to-Cash platform that enables
+                        sellers Finance Teams to get their postpaid receivables
+                        from customers (buyers) on time and have better control
+                        over their buyers through automated workflows,
+                        data-driven insights and AI solve for accounts
+                        receivables, credit risk and its gap with treasury.
+                        Collaborative communication is at the center of
+                        FinFloh's technology, bringing seller internal teams
+                        (Finance, sales, KAM and Customer Support)and buyers to
+                        help resolve issues and disputes efficiently.
                       </p>
                     </AccordionItemPanel>
                   </AccordionItem>
@@ -76,12 +77,8 @@ const FaqContent = (props) => {
                     </AccordionItemHeading>
                     <AccordionItemPanel>
                       <p>
-                        Absolutely! Yes, we would be happy to schedule a call
-                        with you to understand your current accounts receivables
-                        process, identify areas of improvement, and suggest
-                        appropriate solutions. You can reach out to us by email
-                        at hello@finfloh.com or call us directly at
-                        +91-0000000000.
+                        You can reach out to us by email at hello@finfloh.com or
+                        call us directly at +91-7680953111.
                       </p>
                     </AccordionItemPanel>
                   </AccordionItem>
@@ -89,16 +86,16 @@ const FaqContent = (props) => {
                   <AccordionItem uuid="d">
                     <AccordionItemHeading>
                       <AccordionItemButton>
-                        What is the Pricing for FinFloh?
+                        What is the pricing for FinFloh?
                       </AccordionItemButton>
                     </AccordionItemHeading>
                     <AccordionItemPanel>
                       <p>
-                        Our pricing usually comprises of two components,
-                        including a one-time setup fee and an annual recurring
-                        platform fee. We offer customized pricing tailored to
-                        your specific business needs, and you can discuss your
-                        requirements with us during a call.
+                        We have a simple pricing model with an annual
+                        subscription fee for our basic product and a
+                        pay-as-you-go model for additional features and
+                        customizations We can discuss your requirements during a
+                        call.
                       </p>
                     </AccordionItemPanel>
                   </AccordionItem>
@@ -111,30 +108,25 @@ const FaqContent = (props) => {
                     </AccordionItemHeading>
                     <AccordionItemPanel>
                       <p>
-                        By using FinFloh's collaborative collections platform,
-                        you can integrate finance, sales, and customer support
-                        teams to ensure that no information falls through the
-                        cracks. In addition, you can take advantage of our
-                        prioritized collection worklist, multi-channel payment
-                        reminders, predefined dunning templates and real-time
-                        risk alerts to stay on top of unpaid invoices, reduce
-                        payment delays, and decrease DSO.
+                        By using FinFloh's platform, seller teams and buyers can
+                        communicate and collaborate to ensure receivables are
+                        received on time without delays due to disputes, errors
+                        or confusions. In addition, you can take advantage of
+                        our prioritized collection worklist, multi-channel
+                        payment reminders, predefined dunning templates and
+                        real-time risk alerts to stay on top of unpaid invoices,
+                        reduce payment delays, and decrease DSO.
                       </p>
                     </AccordionItemPanel>
                   </AccordionItem>
                   <AccordionItem uuid="f">
                     <AccordionItemHeading>
                       <AccordionItemButton>
-                        How long does it take to get started and implement
-                        FinFloh for my organization?
+                        How long does it take for me to go live with FinFloh?
                       </AccordionItemButton>
                     </AccordionItemHeading>
                     <AccordionItemPanel>
-                      <p>
-                        It completely depends on the complexity of scope.
-                        Typically it takes us 2-6 weeks for the complete setup
-                        and go-live.
-                      </p>
+                      <p>It usualy takes one week for us to take you live</p>
                     </AccordionItemPanel>
                   </AccordionItem>
                 </Accordion>
