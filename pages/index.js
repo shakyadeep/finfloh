@@ -71,7 +71,8 @@ const FinFlohHome = () => {
                 </h3>
                 <p className="small_text">
                   Get rid of issues and disputes stuck in infinite, confusing
-                  loops
+                  loops through automated workflows, NLP-driven communications &
+                  cross-functional collaboration
                 </p>
                 <p>
                   <a className="link_txt" onClick={handleButtonClick}>
@@ -193,8 +194,8 @@ const FinFlohHome = () => {
               <div className="link_box dark_bg">
                 <div>
                   <h3 className="sub_text">
-                    Working Capital for <br />
-                    Treasury Management
+                    Forecast Working Capital <br />
+                    for Treasury Management
                   </h3>
                   <p className="small_text">
                     Analyze past trends, market <br />
