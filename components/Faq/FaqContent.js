@@ -45,6 +45,8 @@ const FaqContent = (props) => {
                         over their buyers through automated workflows,
                         data-driven insights and AI solve for accounts
                         receivables, credit risk and its gap with treasury.
+                      </p>
+                      <p>
                         Collaborative communication is at the center of
                         FinFloh's technology, bringing seller internal teams
                         (Finance, sales, KAM and Customer Support)and buyers to

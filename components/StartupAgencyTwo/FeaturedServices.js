@@ -72,8 +72,7 @@ class FeaturedServices extends Component {
                     Predict Receivables <br /> & Cashflows
                   </h3>
                   <p className="small_text">
-                    Have better control over your cashflows to Better
-                    forecasting & treasury management"
+                    Better forecasting & treasury management"
                   </p>
                 </div>
                 <div className="featured-services-box dark_bg">
@@ -87,12 +86,10 @@ class FeaturedServices extends Component {
                 </div>
                 <div className="featured-services-box white_bg2">
                   <h3 className="sub_text">
-                    Collect Timely
-                    <br /> & Strategically
+                    Collaborate Smartly <br />& Efficiently"
                   </h3>
                   <p className="small_text">
-                    Avoid last-minute surprises & delayed payments to Get rid of
-                    delayed payments & standard dunning
+                    Get rid of delayed payments & standard dunning
                   </p>
                 </div>
               </OwlCarousel>
