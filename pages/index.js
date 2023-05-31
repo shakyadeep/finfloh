@@ -66,13 +66,12 @@ const FinFlohHome = () => {
               <div className="single-team content_box">
                 <div className="tag">Break the Silos</div>
                 <h3 className="sub_text">
-                  Close Disputes & Payments Faster <br /> with Collaborative
+                  Close Disputes & Get Payments Faster <br /> with Collaborative
                   Communication
                 </h3>
                 <p className="small_text">
-                  Get rid of issues and disputes stuck in infinite loops through
-                  automated workflows by enabling cross-functional
-                  collaboration between your customers and internal teams
+                  Get rid of issues and disputes stuck in infinite, confusing
+                  loops
                 </p>
                 <p>
                   <a className="link_txt" onClick={handleButtonClick}>
@@ -84,7 +83,7 @@ const FinFlohHome = () => {
             <div className="col-lg-6 col-sm-6 col-md-6 pm-0">
               <div className="col-img">
                 <img
-                  src="/images/Collaboration.png"
+                  src="/images/Collaboration.svg"
                   alt="image"
                   className="img-responsive"
                 />
@@ -104,10 +103,9 @@ const FinFlohHome = () => {
                   <br /> to Maximize Cashflows
                 </h3>
                 <p className="small_text">
-                  Tap into market intelligence & historical receivables Data to
-                  build an in-depth buyer analytics model to understand your
-                  customer payment lifecycle and identify blindspots in
-                  real-time.
+                  Tap into market data & historical receivables to build a
+                  platform for buyer intelligence, analytics & decision-making
+                  using AI
                 </p>
                 <p>
                   <a className="link_txt" onClick={handleButtonClick}>
@@ -119,7 +117,7 @@ const FinFlohHome = () => {
             <div className="col-lg-12 col-sm-12 col-md-12 p-sm-0 pm-0">
               <div className="col-img">
                 <img
-                  src="/images/BuyerIntelligence.png"
+                  src="/images/BuyerIntelligence.svg"
                   alt="image"
                   className="img-responsive d-none d-sm-block"
                 />
@@ -138,15 +136,15 @@ const FinFlohHome = () => {
           <div className="row">
             <div className="col-lg-6 col-sm-6 col-md-6 d-flex justify-content-center align-items-center">
               <div className="single-team content_box">
-                <div className="tag">Enable Smart Collections</div>
+                <div className="tag">Automate your Collections</div>
                 <h3 className="sub_text">
-                  Improve DSO & Aging with <br /> Contextual Collections
+                  Improve DSO, Aging & Working Capital with <br /> Smart
+                  Collections
                 </h3>
                 <p className="small_text">
-                  Create prioritized collector’s worklist, automate  risk
-                  categorization and dunning, and schedule multi  channel
-                  reminders (Email/SMS/WhatsApp) to  collect faster with more
-                  efficiency.
+                  Implement collection follow-ups contextualised for tone,
+                  frequency & count as per buyer's credit risk & behaviour via
+                  multi-channel reminders (Email/SMS/WhatsApp)
                 </p>
                 <p>
                   <a className="link_txt" onClick={handleButtonClick}>
@@ -158,7 +156,7 @@ const FinFlohHome = () => {
             <div className="col-lg-6 col-sm-6 col-md-6 pm-0">
               <div className="col-img">
                 <img
-                  src="/images/3rdsec.png"
+                  src="/images/Reminder.svg"
                   alt="image"
                   className="img-responsive d-none d-sm-block"
                 />
@@ -183,7 +181,7 @@ const FinFlohHome = () => {
                   </h3>
                   <p className="small_text">
                     Manage your customers with real-time risk <br />
-                     alerts and audit trails
+                    alerts and audit trails
                   </p>
                 </div>
                 <a href="#">
@@ -195,11 +193,12 @@ const FinFlohHome = () => {
               <div className="link_box dark_bg">
                 <div>
                   <h3 className="sub_text">
-                    Predict Working Capital with <br /> AI-driven Reports
+                    Working Capital for <br />
+                    Treasury Management
                   </h3>
                   <p className="small_text">
-                    Analyze past/current trends and use <br />
-                    predictive AI to predict customer payments
+                    Analyze past trends, market <br />
+                    data & AI to predict receivables and cashflows
                   </p>
                 </div>
                 <a href="#">
@@ -215,14 +214,14 @@ const FinFlohHome = () => {
           <div className="row">
             <div className="col-lg-6 col-sm-6 col-md-6 d-flex justify-content-center align-items-center">
               <div className="single-team content_box p-0">
-                <div className="tag">Integrate Seamlessly</div>
+                <div className="tag">Plug-&-Play Integration</div>
                 <h3 className="sub_text">
-                  Get, set and go <br /> on Day 1
+                  Get Set and Go <br /> on Day Zero
                 </h3>
                 <p className="small_text">
-                  Integrate with your ERP/Accounting softwares with just a few
-                  simple clicks without any coding efforts and start managing
-                  your receivables with ease.
+                  Integrate with your ERP/Accounting softwares with just a few
+                  simple clicks without any coding efforts and start managing
+                  your receivables with ease
                 </p>
                 <p>
                   <a

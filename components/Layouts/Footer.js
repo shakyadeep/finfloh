@@ -21,13 +21,11 @@ class Footer extends Component {
                   </div>
 
                   <p>
-                    FinFloh is a a future proof collaborative receivables
-                    automation platform revolutionizing the way modern CFOs and
-                    B2B finance teams manage receivables. With our comprehensive
-                    solution, businesses can streamline receivables workflows,
-                    accelerate collections, reduce disputes, and predict future
-                    cashflows by leveraging market data, cross-functional
-                    collaboration, buyer intelligence, and AI.
+                    FinFloh is an Invoice-to-Cash platform for Modern CFOs and
+                    Finance team to get their postpaid receivables from
+                    customers (buyers) on time and have better control over
+                    their buyer repayments, credit risks and treasury through
+                    automated workflows, data-driven insights and AI
                   </p>
                 </div>
               </div>
@@ -107,8 +105,7 @@ class Footer extends Component {
                   <h3>Contact</h3>
                   <p>San Francisco | Bangalore</p>
                   <p>hello@finfloh.com</p>
-                  <p>+91-680953111</p>
-
+                  <p>+91-768-095-3111</p>
                   <ul className="social-links">
                     <li>
                       <a
