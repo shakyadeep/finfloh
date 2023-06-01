@@ -25,7 +25,7 @@ class Footer extends Component {
                     Finance team to get their postpaid receivables from
                     customers (buyers) on time and have better control over
                     their buyer repayments, credit risks and treasury through
-                    automated workflows, data-driven insights and AI
+                    automated workflows, data-driven insights and AI.
                   </p>
                 </div>
               </div>

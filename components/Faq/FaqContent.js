@@ -96,8 +96,8 @@ const FaqContent = (props) => {
                         We have a simple pricing model with an annual
                         subscription fee for our basic product and a
                         pay-as-you-go model for additional features and
-                        customizations We can discuss your requirements during a
-                        call.
+                        customizations. We can discuss your requirements during
+                        a call.
                       </p>
                     </AccordionItemPanel>
                   </AccordionItem>

@@ -145,7 +145,7 @@ const FinFlohHome = () => {
                 <p className="small_text">
                   Implement collection follow-ups contextualised for tone,
                   frequency & count as per buyer's credit risk & behaviour via
-                  multi-channel reminders (Email/SMS/WhatsApp)
+                  multi-channel follow-ups (Email/SMS/WhatsApp)
                 </p>
                 <p>
                   <a className="link_txt" onClick={handleButtonClick}>
@@ -181,8 +181,8 @@ const FinFlohHome = () => {
                     Trim Bad Debt with <br /> Activated Credit Decisions
                   </h3>
                   <p className="small_text">
-                    Manage your customers with real-time risk <br />
-                    alerts and audit trails
+                    Manage your customers with real-time <br />
+                    risk alerts and audit trails
                   </p>
                 </div>
                 <a href="#">
@@ -198,8 +198,8 @@ const FinFlohHome = () => {
                     for Treasury Management
                   </h3>
                   <p className="small_text">
-                    Analyze past trends, market <br />
-                    data & AI to predict receivables and cashflows
+                    Analyze past trends, market data & <br /> AI to predict
+                    receivables and cashflows
                   </p>
                 </div>
                 <a href="#">
