@@ -72,7 +72,7 @@ class FeaturedServices extends Component {
                     Predict Receivables <br /> & Cashflows
                   </h3>
                   <p className="small_text">
-                    Better forecasting & treasury management"
+                    Better forecasting & treasury management
                   </p>
                 </div>
                 <div className="featured-services-box dark_bg">
@@ -86,7 +86,7 @@ class FeaturedServices extends Component {
                 </div>
                 <div className="featured-services-box white_bg2">
                   <h3 className="sub_text">
-                    Collaborate Smartly <br />& Efficiently"
+                    Collaborate Smartly <br />& Efficiently
                   </h3>
                   <p className="small_text">
                     Get rid of delayed payments & standard dunning
